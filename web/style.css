@@ -1,0 +1,90 @@
+body{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Quicksand';
+  background: #1abc9c;
+  max-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.item{
+  padding: 13px;
+
+  background:#34495e;
+  color: white;
+  margin: 4px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 80px;
+  width: 47%;
+
+}
+.box{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.item>* {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.progress-bar{
+  width: 100%;
+}
+.left {
+  text-align: center;
+  font-size: 1.7em;
+}
+.center {
+  width: 75%;
+}
+.up {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+.down {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 30%;
+}
+.progress {
+  width: 100%;
+  height: 100px;
+}
+.progress-number {
+  margin-top: 10px;
+}
+.up>* {
+  display: flex;
+  
+  align-items: baseline;
+}
+.up-left {
+  width: 60%;
+  justify-content: space-between;
+  text-align: center;
+  vertical-align: middle;
+}
+.up-right {
+  width: 20%;
+  justify-content: end;
+}
+.coins-value{
+  font-size: 50px;
+  margin-left: 30px;
+  font-family: cursive;
+}
+h1 {
+  width: 100vw;
+  text-align: center;
+}

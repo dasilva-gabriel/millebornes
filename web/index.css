@@ -1,0 +1,40 @@
+h2 {
+    width: 100vw;
+    text-align: center;
+}
+.h3 {
+    text-align: center;
+}
+.form {
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+.forms-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100vw;
+    margin-top: 50px;
+}
+.forms-container>* {
+    margin-top: 25px;
+    display: none;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.form1 {
+    display: flex;
+}
+.forms-container input,.forms-container select {
+    margin-top: 10px;
+}
+
+input[type="submit"]{
+    margin-top: 50px;
+    background: lightblue;
+    border-radius: 15px;
+}
